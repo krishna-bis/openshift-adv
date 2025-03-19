@@ -50,7 +50,7 @@ jobs:
         tags: ${{ env.IMAGE_TAGS }}
 
         dockerfiles: |
-          ./Dockerfile
+          ./Day1/container/Dockerfile
         
     - name: Push to registry
       id: push-image
